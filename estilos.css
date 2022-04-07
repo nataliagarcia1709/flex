@@ -14,8 +14,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
 }
 .hijo{
     background: #00B285;
@@ -25,5 +25,10 @@
     margin: 30px;
     padding: 20px; 
     font-size: 40px;
-
+    text-align: center;
+    flex: 1 1 auto;
+}
+.otro{
+    align-self: stretch;
+    height: auto;
 }
